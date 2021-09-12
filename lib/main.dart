@@ -15,32 +15,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // return FutureBuilder(
-    //   future: _initialization,
-    //   builder: (context, snapshot) {
-    //     if (snapshot.hasError) {
-    //       return Container();
-    //     }
-    //     if (snapshot.connectionState == ConnectionState.done) {
-    //       return MaterialApp(
-    //         debugShowCheckedModeBanner: false,
-    //         title: 'Flutter Demo',
-    //         theme: ThemeData(
-    //           primarySwatch: Colors.blue,
-    //         ),
-    //         home: Login(),
-    //         routes: {
-    //           "/login": (context) => Login(),
-    //           "/register": (context) => Register(),
-    //           "/home": (context) => Home(),
-    //         },
-    //       );
-    //     }
-
-    //     return Container();
-    //   },
-    // );
-
     return FutureBuilder(
       future: _initialization,
       builder: (context, snapshot) {
